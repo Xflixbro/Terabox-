@@ -17,27 +17,27 @@ logger = logging.getLogger(__name__)
 
 
 #Bot token @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7557884891:AAF1pOp8dpEXZKRAvvJw2Wvy7I4xoPsKRpE")
 
 #Your API ID from my.telegram.org
-APP_ID = int(os.environ.get("APP_ID", ""))
+APP_ID = int(os.environ.get("APP_ID", "15529802"))
 
 #Your API Hash from my.telegram.org
-API_HASH = os.environ.get("API_HASH", "")
+API_HASH = os.environ.get("API_HASH", "92bcb6aa798a6f1feadbc917fccb54d3")
 
 #Your db channel Id
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-100264208423"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002327650917"))
 
 #OWNER ID
-OWNER_ID = int(os.environ.get("OWNER_ID", "7560922302"))
+OWNER_ID = int(os.environ.get("OWNER_ID", "821215952"))
 ADMINS = [OWNER_ID]
 
-DUMP_CHAT_IDS = os.environ.get('DUMP_CHAT_IDS', '-10025443745474 -10025197388407').split()
+DUMP_CHAT_IDS = os.environ.get('DUMP_CHAT_IDS', '-1002424723817').split()
 
 #Port
 PORT = os.environ.get("PORT", "8888")
 
-DB_URI = os.environ.get("DATABASE_URL", "")
+DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://Teraboxeon:Teraboxeon@cluster0.apwqht2.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 DB_NAME = os.environ.get("DATABASE_NAME", "terabox")
 
 
