@@ -1,0 +1,16 @@
+version: "3.3"
+
+services:
+  app:
+    container_name: genie
+    build:
+      context: .
+      dockerfile: Dockerfile
+    command: sh -c "aria2c --enable-rpc --rpc-listen-all --rpc-allow-origin-all --max-connection-per-server=16 --max-concurrent-downloads=16 --split=16 --daemon && python bot.py"
+    restart: on-failure
+    ports:
+      - "8245:80"
+      - "9377:8080"
+      - "6800:6800"  # Aria2c RPC port
+    volumes:
+      - ./download:/app/download  # Mount download folder

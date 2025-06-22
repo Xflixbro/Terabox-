@@ -1,0 +1,29 @@
+# --- For-Bot-Working --------- #
+https://codeload.github.com/KurimuzonAkuma/pyrogram/zip/refs/heads/dev
+pyrofork
+TgCrypto
+pyromod
+schedule
+APscheduler
+# --- For-Database ------------ #
+pymongo
+motor
+dnspython
+# --- For-Web-Response ------- #
+aiohttp
+httpx
+python-dotenv
+# --- For-Web-Response ------- #
+pytz
+requests
+bs4
+shortzy
+aiofiles
+asyncio
+# --- For-Terabox-Download ------- #
+tgcrypto
+uvloop
+aria2p
+gunicorn
+gevent
+flask
