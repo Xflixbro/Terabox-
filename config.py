@@ -1,5 +1,3 @@
-
-
 import os
 import logging
 from logging.handlers import RotatingFileHandler
@@ -17,7 +15,7 @@ logger = logging.getLogger(__name__)
 
 
 #Bot token @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7557884891:AAF1pOp8dpEXZKRAvvJw2Wvy7I4xoPsKRpE")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "")
 
 #Your API ID from my.telegram.org
 APP_ID = int(os.environ.get("APP_ID", "15529802"))
@@ -26,18 +24,18 @@ APP_ID = int(os.environ.get("APP_ID", "15529802"))
 API_HASH = os.environ.get("API_HASH", "92bcb6aa798a6f1feadbc917fccb54d3")
 
 #Your db channel Id
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002327650917"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002825201004"))
 
 #OWNER ID
 OWNER_ID = int(os.environ.get("OWNER_ID", "821215952"))
 ADMINS = [OWNER_ID]
 
-DUMP_CHAT_IDS = os.environ.get('DUMP_CHAT_IDS', '-1002424723817').split()
+DUMP_CHAT_IDS = os.environ.get('DUMP_CHAT_IDS', '-1002434717011').split()
 
 #Port
 PORT = os.environ.get("PORT", "8888")
 
-DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://Teraboxeon:Teraboxeon@cluster0.apwqht2.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://Testrename:Testrename@cluster0.kgwa5zd.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 DB_NAME = os.environ.get("DATABASE_NAME", "terabox")
 
 
